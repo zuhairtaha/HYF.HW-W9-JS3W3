@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 3</title>
+</head>
+<body>
+
+<button id="btn-0">Button 1!</button>
+<button id="btn-1">Button 2!</button>
+<button id="btn-2">Button 3!</button>
+
+<script type="text/javascript">
+
+    var prizes = ['A Unicorn!', 'A Hug!', 'Fresh Laundry!'];
+    for (let btnNum = 0; btnNum < prizes.length; btnNum++) {
+        // for each of our buttons, when the user clicks it...
+        document.getElementById('btn-' + btnNum).onclick = function () {
+            // tell her what she's won!
+            // console.log(btnNum); // 3 if var btnNum => prizes[3] is undefined
+            // let create a new binding for per loop iteration
+            // then closure function  will get btnNum {0,1,2} at loop iterations
+            alert(prizes[btnNum]);
+        };
+    }
+</script>
+
+</body>
+</html>

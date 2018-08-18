@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aea8ad98-7046-4b4f-9f26-345abaf7fd5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/ex3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/ex3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/q1to8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/exercise1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/exercise2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/range-slider/rSlider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/libs/range-slider/rSlider.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/.babelrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/img/Git-commit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/js/Repository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript2/tracer/.idea/libraries/Generated_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../JavaScript2/tracer/.idea/libraries/Generated_files.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/css/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/img/bigO.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/img/few_unique_items.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/img/more_unique_items.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/img/most_unique_items.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/js/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/js/chart.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/js/distinct1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/DistinctArrayAlgoriths/js/distinct2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/.bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../JavaScript22/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/part1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/part1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/part2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/part2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/radio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/closure_simple.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/closure_simple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/JS3_w8_closures_promises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/img/search-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/js/part1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/js/part2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/test/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/test/closure_simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/test/myObject.js" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1948663359">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="4" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="19" />
+          <entry key="js" value="36" />
+          <entry key="png" value="7" />
+          <entry key="rnc" value="1" />
+          <entry key="svg" value="1" />
+          <entry key="ts" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="19" />
+          <entry key="Image" value="7" />
+          <entry key="JavaScript" value="36" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SVG" value="1" />
+          <entry key="TypeScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="703" />
+          <entry key="dummy" value="1" />
+          <entry key="gitignore" value="15" />
+          <entry key="html" value="4728" />
+          <entry key="js" value="16234" />
+          <entry key="rnc" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="703" />
+          <entry key="HTML" value="4782" />
+          <entry key="JavaScript" value="16180" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="RNG Compact" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise3.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/exercise1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/exercise2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addevent</find>
+      <find>movieName</find>
+      <find>forEach</find>
+      <find>moviesSearchForm</find>
+      <find>0em</find>
+      <find>col-lg-12</find>
+      <find>cardSearchForm</find>
+      <find>states</find>
+      <find>moviesState</find>
+      <find>radio</find>
+      <find>getFilteredMovies</find>
+      <find>url</find>
+      <find>submit</find>
+      <find>moviesList</find>
+      <find>filteredMovies</find>
+      <find>then</find>
+      <find>highlight</find>
+      <find>this</find>
+      <find>numberSelected</find>
+      <find>Number of items which are divisible</find>
+      <find>divisibleByRadioValue</find>
+      <find>divisibleByRadio</find>
+      <find>divisibleByInput</find>
+      <find>console.log</find>
+      <find>Error loading todos for user</find>
+      <find>user</find>
+      <find>inclos</find>
+      <find>Promises</find>
+      <find>btnNum</find>
+      <find>HACK</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>let</replace>
+      <replace>le</replace>
+      <replace>movieName</replace>
+      <replace>https://</replace>
+      <replace>0</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test/myObject.js" />
+        <option value="$PROJECT_DIR$/test/index.html" />
+        <option value="$PROJECT_DIR$/test/app.js" />
+        <option value="$PROJECT_DIR$/css.html" />
+        <option value="$PROJECT_DIR$/js/closure_goi.js" />
+        <option value="$PROJECT_DIR$/js/closure_console.js" />
+        <option value="$PROJECT_DIR$/js/app.js" />
+        <option value="$PROJECT_DIR$/promises.html" />
+        <option value="$PROJECT_DIR$/js/part2.js" />
+        <option value="$PROJECT_DIR$/HYF-Solv/movies.html" />
+        <option value="$PROJECT_DIR$/HYF-Solv/movies.js" />
+        <option value="$PROJECT_DIR$/HYF-Solv/closure.html" />
+        <option value="$PROJECT_DIR$/js/part2.2.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/test/closure_simple.js" />
+        <option value="$PROJECT_DIR$/test/class_examples.js" />
+        <option value="$PROJECT_DIR$/test/duringClassExamples.js" />
+        <option value="$PROJECT_DIR$/test/closuer1.js" />
+        <option value="$PROJECT_DIR$/test/pankaj_solv_closure.js" />
+        <option value="$PROJECT_DIR$/js/part1.js" />
+        <option value="$PROJECT_DIR$/test/bind.js" />
+        <option value="$PROJECT_DIR$/test/this.html" />
+        <option value="$PROJECT_DIR$/exercise3.html" />
+        <option value="$PROJECT_DIR$/js/exercise1.js" />
+        <option value="$PROJECT_DIR$/js/exercise2.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1704" />
+    <option name="y" value="-8" />
+    <option name="width" value="1345" />
+    <option name="height" value="717" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JS3_w8_closures_promises" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JS3_w8_closures_promises" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hyf-html-css/javascript/module-2/week09" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.JavaScript" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\HackYourFuture\Homeworks\hackyourfuture_homeworks\JavaScript3\JS3_w8_closures_promises\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\HackYourFuture\Homeworks\hackyourfuture_homeworks\JavaScript3\JS3_w8_closures_promises\js" />
+      <recent name="D:\HackYourFuture\Homeworks\hackyourfuture_homeworks\JavaScript3\JS3_w8_closures_promises\libs\range-slider" />
+      <recent name="D:\HackYourFuture\Homeworks\hackyourfuture_homeworks\JavaScript3\JS3_w8_closures_promises\img" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="exercise3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS3_w8_closures_promises/exercise3.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS3_w8_closures_promises/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="this.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS3_w8_closures_promises/test/this.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="bind.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="bind.js" working-dir="$PROJECT_DIR$/test">
+      <method v="2" />
+    </configuration>
+    <configuration name="exercise1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="exercise1.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Node.js.exercise1.js" />
+      <item itemvalue="Node.js.bind.js" />
+      <item itemvalue="JavaScript Debug.this.html" />
+      <item itemvalue="JavaScript Debug.exercise3.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.exercise3.html" />
+        <item itemvalue="JavaScript Debug.this.html" />
+        <item itemvalue="Node.js.bind.js" />
+        <item itemvalue="Node.js.exercise1.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aea8ad98-7046-4b4f-9f26-345abaf7fd5d" name="Default Changelist" comment="" />
+      <created>1533580663921</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533580663921</updated>
+      <workItem from="1533580665098" duration="73220000" />
+      <workItem from="1533890118366" duration="654000" />
+      <workItem from="1533891308142" duration="1103000" />
+      <workItem from="1533895941786" duration="954000" />
+      <workItem from="1533999182417" duration="11000" />
+      <workItem from="1534433259342" duration="84300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="160242000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="NativeScript" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.43607" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Nativescript Palette" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Run" order="4" weight="0.2911311" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/myObject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-868">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css.html" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/web-forms2.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="511" column="22" selection-start-line="511" selection-start-column="22" selection-end-line="511" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/closure_interface.js" />
+    <entry file="file://$PROJECT_DIR$/js/closure_console.js" />
+    <entry file="file://$PROJECT_DIR$/promises.html" />
+    <entry file="file://$PROJECT_DIR$/js/radio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="e#30#36#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/global.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="1315" column="10" selection-start-line="1315" selection-start-column="10" selection-end-line="1315" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HYF-Solv/closure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HYF-Solv/movies.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HYF-Solv/movies.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/part2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="400" column="68" lean-forward="true" selection-start-line="400" selection-start-column="68" selection-end-line="400" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="182" lean-forward="true" selection-start-line="182" selection-end-line="182" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/closure_simple.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-484">
+          <caret line="23" column="38" lean-forward="true" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/duringClassExamples.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/closuer1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/pankaj_solv_closure.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" lean-forward="true" selection-end-line="41" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/part2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="400" column="68" selection-start-line="400" selection-start-column="68" selection-end-line="400" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/part1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/search-solid.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/type_6.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/this.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2592">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
+          <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/bind.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/exercise2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/exercise1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

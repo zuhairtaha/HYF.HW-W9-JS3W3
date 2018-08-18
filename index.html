@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Homework Week 9</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="https://tahasoft.com/assets/img/favicon.ico">
+    <link rel="stylesheet" href="libs/range-slider/rSlider.min.css">
+    <script src="libs/range-slider/rSlider.min.js"></script>
+
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container"><a class="navbar-brand" href="#">
+            <b>Homework Week 9</b>
+        </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="index.html">Step 1</a>
+                    <a target="_blank" class="nav-item nav-link" href="js/exercise1.js">Exercise 1</a>
+                    <a target="_blank" class="nav-item nav-link" href="js/exercise2.js">Exercise 2</a>
+                    <a target="_blank" class="nav-item nav-link" href="exercise3.html">Exercise 3</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<div class="container main-content">
+
+    <div class="promises">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card mt-3">
+                    <div class="card-body">
+
+                        <!-- search form -->
+                        <form id="moviesSearchForm" class="mb-3">
+                            <label for="movieTitle">Search by title</label>s
+                            <div class="input-group">
+                                <input id="movieTitle" name="movieTitle" placeholder="input movie title"
+                                       class="form-control" type="text"/>
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary ripple" id="submitSearchForm" type="submit">
+                                        <i class="fas fa-search"></i>
+                                        Search
+                                    </button>
+                                </div>
+                            </div>
+
+                        </form>
+
+
+                        <!-- radio buttons to change rating movies rendered -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input class="custom-control-input" form="moviesSearchForm"
+                                           type="radio" name="moviesTag" id="All" value="All" checked="checked">
+                                    <label class="custom-control-label" for="All">All</label>
+                                </div>
+
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input class="custom-control-input" form="moviesSearchForm"
+                                           type="radio" name="moviesTag" id="Good" value="Good">
+                                    <label class="custom-control-label" for="Good">Good</label>
+                                </div>
+
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input class="custom-control-input" form="moviesSearchForm"
+                                           type="radio" name="moviesTag" id="Average" value="Average">
+                                    <label class="custom-control-label" for="Average">Average</label>
+                                </div>
+
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input class="custom-control-input" form="moviesSearchForm"
+                                           type="radio" name="moviesTag" id="Bad" value="Bad">
+                                    <label class="custom-control-label" for="Bad">Bad</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end radio buttons -->
+
+                        <!-- decade filter : -->
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <br>
+                                Filter by decade:
+                                <input form="moviesSearchForm" type="text" name="decades" id="decadeSlider"/>
+                            </div>
+                        </div>
+                        <!-- /decade filter -->
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <p class="bg-light pt-3 pb-3 pl-3" id="states"></p>
+
+                        <div id="sortBar" class="row bg-dark text-white ml-1 mr-1 pt-2 pb-2" style="display: none">
+                            <div class="col-lg-2">
+                                <span class="sortBy" id="title">
+                                    <i class="fas fa-sort"></i> Name
+                                </span>
+                            </div>
+                            <div class="col-lg-2">
+                                <span class="sortBy" id="year">
+                                    <i class="fas fa-sort"></i> Year
+                                </span>
+                            </div>
+                            <div class="col-lg-8 text-right">
+                                <span class="sortBy" id="rating">
+                                    <i class="fas fa-sort"></i> Rating
+                                </span>
+                            </div>
+                        </div>
+
+                        <ul id="moviesList" class="list-unstyled">
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<footer class="mt-3 bg-dark text-white pt-4 pb-3">
+
+    <!--Footer Links-->
+    <div class="container">
+
+
+        <a target="_blank" class="btn btn-link"
+           href="https://github.com/HackYourFuture-CPH/JavaScript/blob/master/JavaScript3/Week9/MAKEME.md">
+            <i class="fab fa-github"></i> Homework Question</a>
+
+        <!--<a target="_blank" class="btn btn-link"-->
+        <!--href="https://zuhairtaha.github.io/hyf-javascript3/">-->
+        <!--<i class="fab fa-github"></i> My homework index</a>-->
+
+    </div>
+</footer>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+
+<script type="module" src="js/part1.js"></script>
+<script type="module" src="js/part2.js"></script>
+<script type="module" src="js/exercise1.js"></script>
+
+</body>
+</html>
