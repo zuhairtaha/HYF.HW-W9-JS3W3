@@ -1,11 +1,11 @@
 "use strict";
-
+// --------------------------
 /**
  * get icons : font-awesome star icon
  * @param {Number} rating : the number of icons is equal to rating number
  * @returns {string}
  */
-let movieStars = rating => {
+const movieStars = rating => {
     let stars = '';
     for (let i = 0; i <= rating; i++) {
         stars += '<i class="fas fa-star"></i>';
@@ -17,8 +17,8 @@ let movieStars = rating => {
  * if there are movies show sort bar else hide it
  * @param {Number} moviesCount
  */
-let showOrHideSortBar = (moviesCount) => {
-    let sortBar = document.querySelector('#sortBar');
+const showOrHideSortBar = (moviesCount) => {
+    const sortBar = document.querySelector('#sortBar');
     if (moviesCount)
         sortBar.style.display = 'flex';
     else
@@ -29,8 +29,8 @@ let showOrHideSortBar = (moviesCount) => {
  * render movies
  * @param {Promise} movies
  */
-let updateMovies = (movies) => {
-    let moviesUL = document.querySelector('#moviesList');
+const updateMovies = (movies) => {
+    const moviesUL = document.querySelector('#moviesList');
     let moviesList = '';
     movies
         .then(movies => {
@@ -68,8 +68,8 @@ let updateMovies = (movies) => {
  * @param {Array} movies
  * @returns {Number}
  */
-let calculateTotalRatingAverage = movies => {
-    let average = movies
+const calculateTotalRatingAverage = movies => {
+    const average = movies
         .reduce((sum, movie) => sum += movie.rating, 0) / movies.length;
     return Number(average.toFixed(2));
 };
@@ -78,7 +78,7 @@ let calculateTotalRatingAverage = movies => {
  * render count of movies and rating average
  * @param {Promise} movies
  */
-let updateStates = movies => {
+const updateStates = movies => {
     movies.then(renderedMovies => {
         document.querySelector('#states').innerHTML =
             `Total results <span class="badge badge-info">${renderedMovies.length}</span>, 
@@ -87,21 +87,14 @@ let updateStates = movies => {
     });
 };
 
-// ----------------------------------------------------
-// show loading ...
-let showLoading = () => {
-    // spinner... show loading icon while loading movies
-    document.querySelector('#moviesList').innerHTML = `<h2><i class="fas fa-sync fa-spin"></i> loading...</h2>`;
-};
 
 // ----------------------------------------------------
 /**
  * movies list after adding tag property (Good/Average/Bad)
  * @returns {Promise}
  */
-let getTaggedMovies = () => {
+const getTaggedMovies = () => {
     const moviesUrl = 'https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json';
-    showLoading();
     return fetch(moviesUrl)
         .then(responseMovies => responseMovies.json())
         .then(movies => {
@@ -109,13 +102,14 @@ let getTaggedMovies = () => {
             return movies;
         });
 };
+const taggedMoviesPromise = getTaggedMovies();
 
 // ----------------------------------------------------
 /**
  * add tag property for a movie according to rating value
  * @param movie
  */
-function addTagToMovie(movie) {
+const addTagToMovie = movie => {
     if (movie.rating >= 7) {
         movie.tag = "Good";
     }
@@ -125,18 +119,7 @@ function addTagToMovie(movie) {
     if (movie.rating < 4) {
         movie.tag = "Bad";
     }
-}
-
-// ----------------------------------------------------
-/**
- * filter movies by checked tag
- * @param {Array} movies
- * @returns {Array}
- */
-function filterMoviesByTag(movies) {
-    return movies
-        .filter(movies => movies.tag === filter.tag.value);
-}
+};
 
 // --------------------------
 /**
@@ -150,7 +133,7 @@ function highlight(keyword, text) {
     if (!keyword) {
         return text;
     }
-    let pattern = new RegExp("(" + keyword + ")", "gi");
+    const pattern = new RegExp("(" + keyword + ")", "gi");
     return text.replace(pattern, `<span class='highlight'>${keyword}</span>`);
 }
 
@@ -162,7 +145,13 @@ function highlight(keyword, text) {
  * @returns {Promise}
  */
 
-let getFilteredMovies = (moviesPromise, filter) => {
+const getFilteredMovies = (moviesPromise, filter) => {
+
+    const filterTitle = filter.title;
+    const filterTag = filter.tag;
+    const filterStartDecade = filter.startDecade;
+    const filterEndDecade = filter.endDecade;
+
     return moviesPromise
         .then(filterMoviesByTitle)
         .then(filterMoviesByTag)
@@ -175,8 +164,8 @@ let getFilteredMovies = (moviesPromise, filter) => {
      * @returns {Array}
      */
     function filterMoviesByTag(movies) {
-        return filter.tag === 'All' ? movies : movies
-            .filter(movie => movie.tag === filter.tag);
+        return filterTag === 'All' ? movies : movies
+            .filter(movie => movie.tag === filterTag);
     }
 
 // --------------------------
@@ -187,16 +176,16 @@ let getFilteredMovies = (moviesPromise, filter) => {
      */
     function filterMoviesByTitle(movies) {
         return movies
-            .filter(movie => movie.title.toLowerCase().includes(filter.title.toLowerCase()))
-            .map(movie => ({...movie, title: highlight(filter.title, movie.title)}));
+            .filter(movie => movie.title.toLowerCase().includes(filterTitle.toLowerCase()))
+            .map(movie => ({...movie, title: highlight(filterTitle, movie.title)}));
     }
 
 // --------------------------
     function filterMoviesByDecades(movies) {
         return movies
             .filter(
-                movie => movie.year >= filter.startDecade
-                    && movie.year <= (filter.endDecade + 10)
+                movie => movie.year >= filterStartDecade
+                    && movie.year <= (filterEndDecade + 10)
             );
     }
 
@@ -222,16 +211,16 @@ document.querySelector('#moviesSearchForm').addEventListener('submit', (event) =
     const formEventTarget = new FormData(event.target);
 
     // get search keyword (movie title) from input text at movies search form
-    let movieTitle = String(formEventTarget.get('movieTitle').trim());
+    const movieTitle = String(formEventTarget.get('movieTitle').trim());
 
     // get checked radio button value (to filter movies by selected tag)
-    let moviesTag = formEventTarget.get('moviesTag');
+    const moviesTag = formEventTarget.get('moviesTag');
 
     let decades = formEventTarget.get('decades'); // string example: "1970s,2020s"
     decades = decades.match(/\d+/g); // regular expressions => [1970, 2020]
 
     // filter object
-    let filter = {
+    const filter = {
         title: movieTitle,
         tag: moviesTag,
         startDecade: parseInt(decades[0]),
@@ -239,7 +228,7 @@ document.querySelector('#moviesSearchForm').addEventListener('submit', (event) =
     };
 
     // filter movies by title (previous gotten keyword)
-    filteredMovies = getFilteredMovies(getTaggedMovies(), filter);
+    filteredMovies = getFilteredMovies(taggedMoviesPromise, filter);
 
     // render movies
     updateMovies(filteredMovies);
@@ -253,7 +242,7 @@ document.querySelector('#moviesSearchForm').addEventListener('submit', (event) =
  * Javascript range slider
  * @link https://github.com/slawomir-zaziablo/range-slider
  */
-let mySlider = new rSlider({
+const mySlider = new rSlider({
     target: '#decadeSlider', // id
     // decades array
     values: ['1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s'],
@@ -285,7 +274,7 @@ function onDecadeSliderChange() {
  * @param {String} string contains spam HTML tag
  * @returns {string} without tags
  */
-let stripSpanTags = string => {
+const stripSpanTags = string => {
     let res = string.replace('<span class=\'highlight\'>', '');
     res = res.replace('</span>', '');
     return res.toLowerCase();
@@ -293,7 +282,7 @@ let stripSpanTags = string => {
 
 // --------------------------
 // default sorting of results is ascending
-let ascendingOrder = {
+const ascendingOrder = {
     title: true,
     year: true,
     rating: true
@@ -308,8 +297,8 @@ let ascendingOrder = {
  */
 function sortByTitle(a, b) {
     // strip span tag from titles
-    let aTitle = stripSpanTags(a.title);
-    let bTitle = stripSpanTags(b.title);
+    const aTitle = stripSpanTags(a.title);
+    const bTitle = stripSpanTags(b.title);
     // ascending
     if (ascendingOrder.title)
         return aTitle < bTitle ? -1 : aTitle > bTitle ? 1 : 0;
@@ -349,7 +338,7 @@ function sortByRating(a, b) {
 
 
 // --------------------------
-let sortMovies = (movies, sortBy) => {
+const sortMovies = (movies, sortBy) => {
 
     return movies
         .then(
@@ -371,12 +360,12 @@ let sortMovies = (movies, sortBy) => {
  * and between fa-sort-up/fa-sort-down icon
  * @param {HTMLElement} sortButton
  */
-let inverseOrderAndSetSortIcon = sortButton => {
+const inverseOrderAndSetSortIcon = sortButton => {
     const sortBy = sortButton.id;
     ascendingOrder[sortBy] = !ascendingOrder[sortBy];
-    let sortClasses = ['fa-sort', 'fa-sort-up', 'fa-sort-down'];
+    const sortClasses = ['fa-sort', 'fa-sort-up', 'fa-sort-down'];
 
-    let iconClassList = sortButton.querySelector('i').classList;
+    const iconClassList = sortButton.querySelector('i').classList;
     iconClassList.remove(...sortClasses);
 
     if (ascendingOrder[sortBy]) {
@@ -393,7 +382,7 @@ let inverseOrderAndSetSortIcon = sortButton => {
 document.querySelectorAll('.sortBy').forEach(function (sortButton) {
     sortButton.addEventListener('click', function () {
         inverseOrderAndSetSortIcon(this);
-        let sortedMovies = sortMovies(filteredMovies, this.id);
+        const sortedMovies = sortMovies(filteredMovies, this.id);
         // render movies
         updateMovies(sortedMovies);
 
