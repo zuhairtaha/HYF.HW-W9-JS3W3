@@ -7,11 +7,7 @@
       <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/ex3.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/ex3.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../JavaScript2/12.8duringLessonJS/q1to8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercise3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/exercise1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/exercise2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/range-slider/rSlider.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/range-slider/rSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/exercise2_v2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/.babelrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/img/Git-commit.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript2/JsonAjax/week6hw/index2.html" beforeDir="false" />
@@ -36,16 +32,28 @@
       <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript22/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/part1.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/part1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/part2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/part2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/radio.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/closure_simple.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/closure_simple.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/JS3_w8_closures_promises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/img/logo1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/img/logo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/img/search-solid.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/js/part1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/js/part2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/test/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/test/closure_simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/test/myObject.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/JS3_w8_closures_promises.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises_/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
@@ -129,23 +137,44 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-992669097">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JavaScript" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="102" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="-3184">
+              <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -154,7 +183,7 @@
         <entry file="file://$PROJECT_DIR$/exercise3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -171,8 +200,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/exercise2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="552">
+              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/part2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/exercise2_v2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="20" column="11" selection-start-line="20" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="n#!!block;n#getAjaxData#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,18 +233,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>addevent</find>
-      <find>movieName</find>
-      <find>forEach</find>
-      <find>moviesSearchForm</find>
-      <find>0em</find>
       <find>col-lg-12</find>
       <find>cardSearchForm</find>
       <find>states</find>
@@ -213,13 +258,18 @@
       <find>divisibleByRadioValue</find>
       <find>divisibleByRadio</find>
       <find>divisibleByInput</find>
-      <find>console.log</find>
       <find>Error loading todos for user</find>
       <find>user</find>
       <find>inclos</find>
       <find>Promises</find>
       <find>btnNum</find>
       <find>HACK</find>
+      <find>error =&gt; console.log('Error loading todos for user ', i, ' :</find>
+      <find>inner... show loading icon while loading</find>
+      <find>console.log</find>
+      <find>getAllMovies</find>
+      <find>et getFilteredMovies = (movies, filter) =&gt;</find>
+      <find>et decades = formEventTarget.get('decades'); // string exampl</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -243,7 +293,6 @@
         <option value="$PROJECT_DIR$/js/closure_console.js" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/promises.html" />
-        <option value="$PROJECT_DIR$/js/part2.js" />
         <option value="$PROJECT_DIR$/HYF-Solv/movies.html" />
         <option value="$PROJECT_DIR$/HYF-Solv/movies.js" />
         <option value="$PROJECT_DIR$/HYF-Solv/closure.html" />
@@ -259,9 +308,11 @@
         <option value="$PROJECT_DIR$/test/this.html" />
         <option value="$PROJECT_DIR$/exercise3.html" />
         <option value="$PROJECT_DIR$/js/exercise1.js" />
-        <option value="$PROJECT_DIR$/js/exercise2.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/js/exercise2_v2.js" />
+        <option value="$PROJECT_DIR$/js/exercise2.js" />
+        <option value="$PROJECT_DIR$/js/part2.js" />
       </list>
     </option>
   </component>
@@ -272,10 +323,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1704" />
+    <option name="x" value="1592" />
     <option name="y" value="-8" />
-    <option name="width" value="1345" />
-    <option name="height" value="717" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,25 +334,25 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JS3_w8_closures_promises" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JS3_w8_closures_promises" type="462c0819:PsiDirectoryNode" />
+              <item name="HYF.HW-W9-JS3W3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HYF.HW-W9-JS3W3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="LET" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hyf-html-css/javascript/module-2/week09" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -329,8 +380,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
     <configuration name="exercise3.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS3_w8_closures_promises/exercise3.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/HYF.HW-W9-JS3W3/index.html">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JS3_w8_closures_promises/index.html">
@@ -342,23 +396,20 @@
     <configuration name="bind.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="bind.js" working-dir="$PROJECT_DIR$/test">
       <method v="2" />
     </configuration>
-    <configuration name="exercise1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="exercise1.js" working-dir="$PROJECT_DIR$/js">
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.index.html" />
-      <item itemvalue="Node.js.exercise1.js" />
       <item itemvalue="Node.js.bind.js" />
       <item itemvalue="JavaScript Debug.this.html" />
       <item itemvalue="JavaScript Debug.exercise3.html" />
+      <item itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.index.html (1)" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.exercise3.html" />
         <item itemvalue="JavaScript Debug.this.html" />
         <item itemvalue="Node.js.bind.js" />
-        <item itemvalue="Node.js.exercise1.js" />
       </list>
     </recent_temporary>
   </component>
@@ -378,17 +429,19 @@
       <workItem from="1533895941786" duration="954000" />
       <workItem from="1533999182417" duration="11000" />
       <workItem from="1534433259342" duration="84300000" />
+      <workItem from="1534596636543" duration="1692000" />
+      <workItem from="1535048873056" duration="3199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160242000" />
+    <option name="totallyTimeSpent" value="165133000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.092266664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -448,19 +501,8 @@
     <entry file="file://$PROJECT_DIR$/js/closure_interface.js" />
     <entry file="file://$PROJECT_DIR$/js/closure_console.js" />
     <entry file="file://$PROJECT_DIR$/promises.html" />
-    <entry file="file://$PROJECT_DIR$/js/radio.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <element signature="e#30#36#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/global.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/js/radio.js" />
+    <entry file="file://$PROJECT_DIR$/js/global.js" />
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -486,13 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/part2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="400" column="68" lean-forward="true" selection-start-line="400" selection-start-column="68" selection-end-line="400" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -531,13 +566,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/part2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="400" column="68" selection-start-line="400" selection-start-column="68" selection-end-line="400" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/part1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -561,9 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2592">
           <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -574,17 +599,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3.html">
+    <entry file="file://$PROJECT_DIR$/img/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/exercise2.js">
+    <entry file="file://$PROJECT_DIR$/exercise3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="408">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3184">
+          <caret line="20" column="8" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/exercise2_v2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="20" column="11" selection-start-line="20" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!block;n#getAjaxData#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -595,20 +640,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/exercise2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        <state relative-caret-position="552">
+          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/logo.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/js/part2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="338">
+          <caret line="57" column="44" lean-forward="true" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
         </state>
       </provider>
     </entry>

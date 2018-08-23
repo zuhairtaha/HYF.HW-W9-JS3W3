@@ -88,16 +88,10 @@ let updateStates = movies => {
 };
 
 // ----------------------------------------------------
-/**
- * original movies list
- * @returns {Promise}
- */
-let getAllMovies = () => {
+// show loading ...
+let showLoading = () => {
     // spinner... show loading icon while loading movies
     document.querySelector('#moviesList').innerHTML = `<h2><i class="fas fa-sync fa-spin"></i> loading...</h2>`;
-    const moviesUrl = 'https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json';
-    return fetch(moviesUrl)
-        .then(responseMovies => responseMovies.json())
 };
 
 // ----------------------------------------------------
@@ -105,8 +99,11 @@ let getAllMovies = () => {
  * movies list after adding tag property (Good/Average/Bad)
  * @returns {Promise}
  */
-let taggedMovies = () => {
-    return getAllMovies()
+let getTaggedMovies = () => {
+    const moviesUrl = 'https://gist.githubusercontent.com/pankaj28843/08f397fcea7c760a99206bcb0ae8d0a4/raw/02d8bc9ec9a73e463b13c44df77a87255def5ab9/movies.json';
+    showLoading();
+    return fetch(moviesUrl)
+        .then(responseMovies => responseMovies.json())
         .then(movies => {
             movies.forEach(addTagToMovie);
             return movies;
@@ -160,13 +157,13 @@ function highlight(keyword, text) {
 // --------------------------
 /**
  * filter movies by search keyword or by radio button value
- * @param movies {Promise}
+ * @param moviesPromise {Promise}
  * @param filter {Object}: search keyword or radio buttons filter value
  * @returns {Promise}
  */
 
-let getFilteredMovies = (movies, filter) => {
-    return movies
+let getFilteredMovies = (moviesPromise, filter) => {
+    return moviesPromise
         .then(filterMoviesByTitle)
         .then(filterMoviesByTag)
         .then(filterMoviesByDecades);
@@ -178,13 +175,8 @@ let getFilteredMovies = (movies, filter) => {
      * @returns {Array}
      */
     function filterMoviesByTag(movies) {
-        if (filter.tag === 'All') {
-            return movies;
-        }
-        else {
-            return movies
-                .filter(movie => movie.tag === filter.tag);
-        }
+        return filter.tag === 'All' ? movies : movies
+            .filter(movie => movie.tag === filter.tag);
     }
 
 // --------------------------
@@ -247,7 +239,7 @@ document.querySelector('#moviesSearchForm').addEventListener('submit', (event) =
     };
 
     // filter movies by title (previous gotten keyword)
-    filteredMovies = getFilteredMovies(taggedMovies(), filter);
+    filteredMovies = getFilteredMovies(getTaggedMovies(), filter);
 
     // render movies
     updateMovies(filteredMovies);
@@ -384,15 +376,15 @@ let inverseOrderAndSetSortIcon = sortButton => {
     ascendingOrder[sortBy] = !ascendingOrder[sortBy];
     let sortClasses = ['fa-sort', 'fa-sort-up', 'fa-sort-down'];
 
-        let iconClassList = sortButton.querySelector('i').classList;
-        iconClassList.remove(...sortClasses);
+    let iconClassList = sortButton.querySelector('i').classList;
+    iconClassList.remove(...sortClasses);
 
-        if (ascendingOrder[sortBy]) {
-            iconClassList.add(sortClasses[1]);
-        }
-        else {
-            iconClassList.add(sortClasses[2]);
-        }
+    if (ascendingOrder[sortBy]) {
+        iconClassList.add(sortClasses[1]);
+    }
+    else {
+        iconClassList.add(sortClasses[2]);
+    }
 
 };
 
