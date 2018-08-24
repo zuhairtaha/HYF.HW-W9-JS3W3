@@ -137,68 +137,79 @@ function highlight(keyword, text) {
     return text.replace(pattern, `<span class='highlight'>${keyword}</span>`);
 }
 
+// =================================
+const filterMoviesByTitle = (movies, filterTitle) => {
+    return movies
+        .filter(movie => movie.title.toLowerCase().includes(filterTitle.toLowerCase()))
+        .map(movie => ({...movie, title: highlight(filterTitle, movie.title)}));
+};
+
+// --------------------------
+const filterMoviesByTag = (movies, filterTag) => {
+    return filterTag === 'All' ? movies : movies
+        .filter(movie => movie.tag === filterTag);
+};
+
+// --------------------------
+const filterMoviesByDecades = (movies, filterDecades) => {
+    return movies
+        .filter(movie => movie.year >= parseInt(filterDecades[0]) &&
+            movie.year <= (parseInt(filterDecades[1]) + 10));
+};
+
+// --------------------------
+/**
+ * get the form (#moviesSearchForm) values to use at getFilteredMovies(...)
+ * @returns {Array}
+ */
+const getFilterValues = () => {
+    const filterTitle = document.querySelector('#movieTitle').value.trim();
+    const filterTag = document.querySelector(`input[name=moviesTag]:checked`).value;
+    let decades = document.querySelector(`input[name=decades]`).value.match(/\d+/g);
+    return [filterTitle, filterTag, decades];
+};
 // --------------------------
 /**
  * filter movies by search keyword or by radio button value
- * @param moviesPromise {Promise}
- * @param filter {Object}: search keyword or radio buttons filter value
+ * @param {String} filterTitle
+ * @param {String} filterTag
+ * @param {Array} filterDecades
  * @returns {Promise}
  */
+const getFilteredMovies = (filterTitle, filterTag, filterDecades) => {
 
-const getFilteredMovies = (moviesPromise, filter) => {
-
-    const filterTitle = filter.title;
-    const filterTag = filter.tag;
-    const filterStartDecade = filter.startDecade;
-    const filterEndDecade = filter.endDecade;
-
-    return moviesPromise
-        .then(filterMoviesByTitle)
-        .then(filterMoviesByTag)
-        .then(filterMoviesByDecades);
-
+    return taggedMoviesPromise
+        .then(movies => filterMoviesByTitle(movies, filterTitle))
+        .then(movies => filterMoviesByTag(movies, filterTag))
+        .then(movies => filterMoviesByDecades(movies, filterDecades));
+};
 // --------------------------
-    /**
-     * filter movies by tag
-     * @param {Array} movies
-     * @returns {Array}
-     */
-    function filterMoviesByTag(movies) {
-        return filterTag === 'All' ? movies : movies
-            .filter(movie => movie.tag === filterTag);
-    }
-
-// --------------------------
-    /**
-     * filter movies by title
-     * @param {Array} movies
-     * @returns {Array}
-     */
-    function filterMoviesByTitle(movies) {
-        return movies
-            .filter(movie => movie.title.toLowerCase().includes(filterTitle.toLowerCase()))
-            .map(movie => ({...movie, title: highlight(filterTitle, movie.title)}));
-    }
-
-// --------------------------
-    function filterMoviesByDecades(movies) {
-        return movies
-            .filter(
-                movie => movie.year >= filterStartDecade
-                    && movie.year <= (filterEndDecade + 10)
-            );
-    }
-
-}; // end of getFilteredMovies function
-
-// ======================= MAIN ===============================
-
 // when any radio button checked => filter the rendered movies by selected value
 document.querySelectorAll('input[name="moviesTag"]').forEach(moviesState => {
     moviesState.addEventListener('change', function () {
-        document.querySelector('#submitSearchForm').click();
+        getFilteredMoviesAndRender(...getFilterValues());
     });
 });
+
+// ----------------------------------------------------
+/**
+ * filter movies then render the results
+ * @param movieTitle
+ * @param moviesTag
+ * @param decades
+ */
+const getFilteredMoviesAndRender = (movieTitle, moviesTag, decades) => {
+
+    // filter movies by title (previous gotten keyword)
+    filteredMovies = getFilteredMovies(movieTitle, moviesTag, decades);
+
+    // render movies
+    updateMovies(filteredMovies);
+
+    // update total result, average
+    updateStates(filteredMovies)
+
+};
 
 // ----------------------------------------------------
 
@@ -219,22 +230,8 @@ document.querySelector('#moviesSearchForm').addEventListener('submit', (event) =
     let decades = formEventTarget.get('decades'); // string example: "1970s,2020s"
     decades = decades.match(/\d+/g); // regular expressions => [1970, 2020]
 
-    // filter object
-    const filter = {
-        title: movieTitle,
-        tag: moviesTag,
-        startDecade: parseInt(decades[0]),
-        endDecade: parseInt(decades[1])
-    };
+    getFilteredMoviesAndRender(movieTitle, moviesTag, decades);
 
-    // filter movies by title (previous gotten keyword)
-    filteredMovies = getFilteredMovies(taggedMoviesPromise, filter);
-
-    // render movies
-    updateMovies(filteredMovies);
-
-    // update total result, average
-    updateStates(filteredMovies)
 });
 
 // --------------------------
@@ -262,7 +259,7 @@ let submitForm = false;
 
 function onDecadeSliderChange() {
     if (submitForm) {
-        document.querySelector('#submitSearchForm').click();
+        getFilteredMoviesAndRender(...getFilterValues());
     }
     submitForm = true;
 }

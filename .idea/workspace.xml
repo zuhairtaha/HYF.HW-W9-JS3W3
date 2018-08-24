@@ -31,7 +31,6 @@
       <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript22/JsonAjax/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../JavaScript22/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/part2.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/part2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../JS3_w8_closures_promises/.idea/JS3_w8_closures_promises.iml" beforeDir="false" />
@@ -159,13 +158,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="17" />
-          <entry key="js" value="284" />
+          <entry key="js" value="805" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="17" />
-          <entry key="JavaScript" value="284" />
+          <entry key="JavaScript" value="805" />
         </counts>
       </usages-collector>
     </session>
@@ -175,35 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
+            <state relative-caret-position="282">
               <caret line="51" column="50" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercise3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/exercise1.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/exercise2.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -211,8 +183,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/part2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="221" column="20" lean-forward="true" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+            <state relative-caret-position="282">
+              <caret line="189" column="57" selection-start-line="189" selection-start-column="57" selection-end-line="189" selection-end-column="57" />
               <folding>
                 <element signature="e#376#464#0" />
               </folding>
@@ -233,13 +205,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Number of items which are divisible</find>
-      <find>divisibleByRadioValue</find>
-      <find>divisibleByRadio</find>
-      <find>divisibleByInput</find>
-      <find>Error loading todos for user</find>
-      <find>user</find>
-      <find>inclos</find>
       <find>Promises</find>
       <find>btnNum</find>
       <find>HACK</find>
@@ -252,17 +217,24 @@
       <find>getTaggedMovies</find>
       <find>getFilteredMovies = (moviesPromise, fil</find>
       <find>etFilteredMovies = (moviesPromise, filte</find>
-      <find>taggedMoviesPromise</find>
       <find>tion filterMoviesByTitle(movie</find>
       <find>movies</find>
       <find>let filter</find>
       <find>let</find>
-      <find>getFilteredMovies</find>
       <find>filter.endDecade</find>
       <find>elector('#submitSearchForm').click()</find>
       <find>SearchForm</find>
       <find>moviesSearchForm</find>
+      <find>filteredMovies</find>
+      <find>taggedMoviesPromise</find>
+      <find>getFilteredMovies</find>
+      <find>.click</find>
       <find>submitSearchForm</find>
+      <find>movieTitle</find>
+      <find>moviesTag</find>
+      <find>main</find>
+      <find>decades</find>
+      <find>click</find>
     </findStrings>
     <replaceStrings>
       <replace>let</replace>
@@ -304,8 +276,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/js/exercise2_v2.js" />
         <option value="$PROJECT_DIR$/js/exercise2.js" />
-        <option value="$PROJECT_DIR$/js/part2.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/part2.js" />
       </list>
     </option>
   </component>
@@ -425,12 +397,12 @@
       <workItem from="1534596636543" duration="1692000" />
       <workItem from="1535048873056" duration="3798000" />
       <workItem from="1535054357392" duration="10000" />
-      <workItem from="1535059463253" duration="6469000" />
+      <workItem from="1535059463253" duration="11958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172211000" />
+    <option name="totallyTimeSpent" value="177700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1592" y="-8" width="1936" height="1056" extended-state="6" />
@@ -604,10 +576,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/exercise3.html">
+    <entry file="file://$PROJECT_DIR$/js/exercise2_v2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="168">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!block;n#getAjaxData#0" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,13 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/exercise2_v2.js">
+    <entry file="file://$PROJECT_DIR$/exercise3.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding>
-            <element signature="n#!!block;n#getAjaxData#0" />
-          </folding>
+        <state relative-caret-position="408">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -637,15 +609,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
+        <state relative-caret-position="282">
           <caret line="51" column="50" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/part2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="221" column="20" lean-forward="true" selection-start-line="221" selection-start-column="20" selection-end-line="221" selection-end-column="20" />
+        <state relative-caret-position="282">
+          <caret line="189" column="57" selection-start-line="189" selection-start-column="57" selection-end-line="189" selection-end-column="57" />
           <folding>
             <element signature="e#376#464#0" />
           </folding>
